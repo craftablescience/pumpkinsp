@@ -15,8 +15,9 @@ body {
 #navbar #title {
   color: orange;
   text-color: green;
+  text-align: center;
   float: center;
-  font-size: 36px;
+  font-size: 24px;
 }
 
 #navbar li {
