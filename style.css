@@ -8,12 +8,22 @@ body {
   font-size: 36px;
 }
 
+#navbar_wrapper {
+  list-style-type: none;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  border-radius: 20px;
+}
+
 #navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: green;
+  background-color: lightgreen;
   border-radius: 20px;
 }
 
