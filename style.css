@@ -1,7 +1,10 @@
+body {
+  font-family: Futura;
+}
+
 #title {
   color: orange;
   text-align: center;
-  font-family: futura;
   font-size: 48px;
 }
 
