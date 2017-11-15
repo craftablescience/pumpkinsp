@@ -6,6 +6,7 @@ body {
 #title {
   text-align: center;
   font-size: 36px;
+  text-decoration: none;
 }
 
 #navbar_wrapper {
