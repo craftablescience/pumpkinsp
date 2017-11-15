@@ -3,12 +3,6 @@ body {
   background-color: #4d1a63;
 }
 
-#title {
-  color: orange;
-  text-align: center;
-  font-size: 48px;
-}
-
 #navbar {
   list-style-type: none;
   margin: 0;
@@ -16,6 +10,13 @@ body {
   overflow: hidden;
   background-color: green;
   border-radius: 20px;
+}
+
+#navbar #title {
+  color: orange;
+  text-color: green;
+  float: center;
+  font-size: 36px;
 }
 
 #navbar li {
