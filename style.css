@@ -79,3 +79,12 @@ p {
   border-radius: 20px;
   padding: 5px 5px 5px 5px;
 }
+
+.pinboard > span {
+  width: 95% !important;
+  overflow: hidden;
+}
+
+.pinboard > span > span > span > span {
+    min-width: 0;
+}
