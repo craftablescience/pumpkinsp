@@ -49,11 +49,11 @@ body {
   color: green;
 }
 
-#navbar #active {
+#navbar .active {
   background-color: orange;
 }
 
-#navbar #active a {
+#navbar .active a {
   color: green;
 }
 
