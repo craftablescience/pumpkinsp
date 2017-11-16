@@ -51,7 +51,7 @@ body {
 
 #navbar #active {
   background-color: orange;
-  text-color: green;
+  color: green;
 }
 
 #navbar #last {
