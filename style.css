@@ -12,7 +12,6 @@
   list-style-type: none;
   overflow: hidden;
   display: block;
-  margin: 0;
   padding: 0;
   background-color: green;
   border-radius: 20px;
@@ -71,5 +70,5 @@ p {
   padding: 10px 10px 10px 10px;
   color: orange;
   text-align: center;
-  width: 100%;
+  width: 95%;
 }
