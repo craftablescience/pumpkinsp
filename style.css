@@ -50,7 +50,11 @@ body {
 }
 
 #navbar #active {
-  background-color: #4d1a63;
+  background-color: orange;
+}
+
+#navbar #active a {
+  text-color: green;
 }
 
 #navbar #last {
