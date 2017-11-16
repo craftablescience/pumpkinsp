@@ -16,6 +16,7 @@
   padding: 0;
   background-color: green;
   border-radius: 20px;
+  width: 95%;
 }
 
 #navbar {
@@ -66,4 +67,5 @@ p {
   border-radius: 20px;
   padding: 10px 10px 10px 10px;
   color: orange;
+  width: 95%;
 }
