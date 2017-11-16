@@ -54,7 +54,7 @@ body {
 }
 
 #navbar #active a {
-  text-color: green;
+  color: green;
 }
 
 #navbar #last {
