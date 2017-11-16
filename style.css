@@ -65,7 +65,8 @@ body {
 p {
   background-color: green;
   border-radius: 20px;
-  padding: 10px 10px 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: orange;
   text-align: center;
   width: 100%;
