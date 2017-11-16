@@ -71,3 +71,11 @@ p {
   text-align: center;
   width: 100%;
 }
+
+.pinboard {
+  width: 95%;
+  float: center;
+  background-color: green;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+}
