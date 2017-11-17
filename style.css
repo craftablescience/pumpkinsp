@@ -57,12 +57,21 @@
   float: right;
 }
 
+.social {
+  background-color: green;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: orange;
+  width: 100%;
+}
+
 body {
   font-family: Futura, Helvetica, serif;
   background-color: #6d510c;
 }
 
-ul li, h2, p {
+h2, p {
   background-color: green;
   border-radius: 20px;
   padding-top: 10px;
