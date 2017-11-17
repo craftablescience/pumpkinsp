@@ -72,6 +72,11 @@ h2, p {
   width: 100%;
 }
 
+ul li {
+  text-decoration: none;
+  color: orange;
+}
+
 .pinboard {
   width: 98%;
   background-color: green;
