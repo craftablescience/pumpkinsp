@@ -62,7 +62,7 @@ body {
   background-color: #6d510c;
 }
 
-h2, p {
+ul li, h2, p {
   background-color: green;
   border-radius: 20px;
   padding-top: 10px;
@@ -74,6 +74,11 @@ h2, p {
 
 ul li {
   text-decoration: none;
+  color: orange;
+}
+
+ul li a {
+  text_decoration: none;
   color: orange;
 }
 
