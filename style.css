@@ -62,7 +62,7 @@ body {
   background-color: #6d510c;
 }
 
-p {
+h2, p {
   background-color: green;
   border-radius: 20px;
   padding-top: 10px;
