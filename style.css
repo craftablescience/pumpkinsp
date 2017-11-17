@@ -73,10 +73,11 @@ p {
 }
 
 .pinboard {
-  width: 100%;
+  width: 98%;
   background-color: green;
   border-radius: 5px;
-  padding: 5px 0px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  margin: auto;
 }
 
 .pinboard > span {
