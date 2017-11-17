@@ -81,7 +81,7 @@ p {
 }
 
 .pinboard > span {
-  width: 95% !important;
+  width: 50% !important;
   overflow: hidden;
 }
 
