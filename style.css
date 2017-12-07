@@ -72,7 +72,7 @@ body {
   background-color: #6d510c;
 }
 
-h2, p {
+h2, p, .old_site {
   background-color: green;
   border-radius: 20px;
   padding-top: 10px;
