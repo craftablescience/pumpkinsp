@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amanda and Brendan</title>
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+		<style>
+			body {
+				font-family: Droid Sans, Futura, Helvetica, serif;
+				background-color: powderblue;
+			}
+			
+			#title {
+				border-style: solid;
+				border-width: 5px;
+				border-color: orange;
+				border-radius: 50px;
+				color: orange;
+				padding: 10px 10px 10px 10px;
+				font-family: Garamond;
+			}
+			
+			.tablink {
+				background-color: #555;
+				color: white;
+				float: left;
+				border: none;
+				outline: none;
+				cursor: pointer;
+				padding: 14px 16px;
+				font-size: 17px;
+				width: 25%;
+			}
+
+			/* Change background color of buttons on hover */
+			.tablink:hover {
+				background-color: #777;
+			}
+
+			/* Set default styles for tab content */
+			.tabcontent {
+				color: white;
+				display: none;
+				padding: 50px;
+				text-align: center;
+			}
+
+			/* Style each tab content individually */ 
+			#Blog {background-color:red;}
+			#Facts {background-color:purple;}
+			#Locator {background-color:blue;}
+			#Recipes {background-color:orange;}
+			
+			.about {
+				color: orange; 
+				font-size: 24px  
+	      
+			}
+			
+			.about_link {
+				color: orange;
+				border-width: 5px;
+				border-style: solid;
+				border-color: orange;
+				border-radius: 25px;
+				padding: 5px 5px 5px 5px;
+				text-decoration: none;
+			}
+			
+			.about_link:hover {
+				color: green;
+				background-color: orange;
+			}
+			
+			#sparklyheart {
+				float: right;
+				background: orange;
+				padding: 5px 5px 5px 5px;
+				border-radius: 100px;
+				margin: 5px 5px 5px 5px;
+			}
+			
+			#nav {
+				display: inline;
+			
+			}
+			/*ul{list-style-type:none;			
+			}*/
+			
+			.center {margin:auto;display:block;}
+			
+			.divider {
+				width: 99%; 
+				height: 5px;
+				background-color: orange;
+				border-width: 4px;
+				border-color: lightgreen;
+				border-style: solid;
+				border-radius: 3px;
+			}
+			</style>
+	</head>
+	
+	<body style="background-color: green;">
+		<audio autoplay loop
+			<source src="pumpkin.mp3" type="audio/mpeg">
+		</audio>
+		<!--[if IE]>
+			<h1 style="font-size: 48px; color:red;">You need Google Chrome to view this webpage.</h1>
+		<![endif]-->
+		<br/>
+		<div id="nav">
+			<a href="about.html" class="about_link">About Us</a><p id="sparklyheart">💖</p>
+		</div>
+		<strong><h1 id="title"><em>Pumpkin Spice</em></h1></strong>
+		<hr class="divider"/>
+		<div id="Blog" class="tabcontent">
+			<h3>Spicy Blog</h3>
+			<p>Our blog is spicy yummy!</p>
+			<p>Hello Pumpkin Spicers! This is Brendan and Amanda's blog here, please enjoy it while you can...</p>
+			<p>We are freshman at CRHS who love pumpkin spice! YAY!</p>
+			<img src="orange-pumpkins.jpg" width="50%" height="50%" alt="hi"/>
+		</div>
+
+		<div id="Facts" class="tabcontent">
+			<h3>Facts</h3>
+			<p>Facts are yummy! And pumpkin spicy...</p>
+			<ul class="center">
+				<li>Pumpkins are the world's largest vegetable.</li>
+				<li>They are gourds, meaning they are like squash.</li>
+				<li>They have lots of fiber, but not much else.</li>
+				<li>They have vitamins.</li>
+				<li>It takes a month and a half to grow pumpkins!</li>
+				<div style="text-align: center;"><img src="PumpkinSpiceGum.jpg" width="50%" height="50%" alt="hi"/></div>
+				<!-- This will work better than the <header> tag -->
+			</ul>
+		</div>
+
+		<div id="Locator" class="tabcontent">
+			<h3>Locator</h3>
+			<p>Locators are yummy!</p>
+
+		</div>
+
+		<div id="Recipes" class="tabcontent">
+			<h3>Recipes</h3>
+			<p>Recipes are yummy! Featured recipes are coming soon...</p>
+			<a href="www.pinterest.com">Here is Pinterest</a>
+			<br/>
+			<a href="https://www.google.com/search?q=picture+of+a+pumpkins&rlz=1C1GGRV_enUS762US762&tbm=isch&source=lnt&tbs=sur:fc&sa=X&ved=0ahUKEwjR6_Kl4MXXAhWBQiYKHT6oAPQQpwUIHQ&biw=1920&bih=959&dpr=1&safe=active&ssui=on#imgrc=oE9LqW9WlvUTRM:">Pumpkin Pictures</a>
+		</div>
+
+		<button class="tablink" onclick="openCity('Blog', this, 'red')" id="defaultOpen">Spicy Blog</button>
+		<button class="tablink" onclick="openCity('Facts', this, 'purple')">Facts</button>
+		<button class="tablink" onclick="openCity('Locator', this, 'blue')">Locator</button>
+		<button class="tablink" onclick="openCity('Recipes', this, 'orange')">Recipes</button>
+		
+		<br/>
+		<br/>
+		<br/>
+		<p class="about">Created by Amanda and Brendan in ECS class.</p>
+		
+		<script type="text/javascript">
+			function openCity(cityName, elmnt, color) {
+				// Hide all elements with class="tabcontent" by default */
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";
+				}
+
+				// Remove the background color of all tablinks/buttons
+				tablinks = document.getElementsByClassName("tablink");
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].style.backgroundColor = "";
+				}
+
+				// Show the specific tab content
+				document.getElementById(cityName).style.display = "block";
+
+				// Add the specific color to the button used to open the tab content
+				elmnt.style.backgroundColor = color;
+			}
+
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+		</script>
+	</body>
+</html>
