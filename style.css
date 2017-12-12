@@ -82,6 +82,10 @@ h2, p, .old_site {
   width: 100%;
 }
 
+.old_site {
+  margin-bottom: 10px;
+}
+
 ul li {
   text-decoration: none;
   color: orange;
